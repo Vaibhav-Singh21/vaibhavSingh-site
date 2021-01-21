@@ -40,7 +40,7 @@ h2{
     font-size: xx-large;
     color: white;
 }
-.list-non-bullet{
+.list-non-buffet{
     list-style: none;
     max-width: auto;
     display: block;
