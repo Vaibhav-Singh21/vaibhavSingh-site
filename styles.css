@@ -40,17 +40,19 @@ h2{
     font-size: xx-large;
     color: white;
 }
-.list-non-buffet{
+.list-non-bullet{
     list-style: none;
+    max-width: auto;
+    display: block;
 }
 .list-item-inline{
     text-decoration: none;
-    display: inline;
+    display: inline-block;
     padding: 0rem 0.5rem;
 }
 .navigation{
     background-color: var(--primary-color);
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     padding: 0.5rem;
     border-bottom-right-radius: 2.5rem;
